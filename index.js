@@ -11,7 +11,7 @@ returns a value, that value will be logged to the console.  An example of this w
 */
 
 /*
-Task 1a - Voting Age (not auto tested)
+Task 1a  Voting Age 
 
 Do the following:   
    1. Create a variable called votingAge and assign it a number value
@@ -20,8 +20,12 @@ Do the following:
    HINT: no function required
 */
 
-
-
+const votingAge = 18;
+if(votingAge >18) {
+  console.log (true);
+}else{
+  console.log (false);
+}
 /*
 Task 1b - Values (not auto tested)
 
@@ -32,7 +36,16 @@ Do the following:
    4. Console log the value of the 1st variable
 
    HINT: no function required
-*/
+*/ 
+let firstThing = '6';
+ let secondThing = '6';
+
+ if (firstThing === secondThing) {
+  firstThing = 8
+  console.log (firstThing)
+ }
+
+
 
 
 
@@ -48,6 +61,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+var x = Number('1999');
+console.log(x);
+
+
 
 
 
@@ -65,6 +82,8 @@ function multiply(num1, num2){
   return num1 * num2;
 }
 
+console.log(multiply(5,8));
+console.log(multiply(4,6));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
